@@ -1,0 +1,39 @@
+https://www.khanacademy.org/computer-programming/fine-wood-tables/5179686182240256
+
+CREATE TABLE "tables" (id INTEGER PRIMARY KEY, name TEXT, seating INTEGER, color TEXT, price INTEGER);
+
+INSERT INTO tables VALUES (1, "lucy", 3, "walnut", 1000);
+INSERT INTO tables VALUES (2, "mona", 3, "espresso", 1250);
+INSERT INTO tables VALUES (3, "jason", 4, "maple", 1350);
+INSERT INTO tables VALUES (4, "cody", 4, "pine", 1300);
+INSERT INTO tables VALUES (5, "jessie", 5, "cherry", 1400);
+INSERT INTO tables VALUES (6, "morgan", 5, "redwood", 1450);
+INSERT INTO tables VALUES (7, "quinn", 6, "alder", 1500);
+INSERT INTO tables VALUES (8, "clarke", 7, "red_oak", 1550);
+INSERT INTO tables VALUES (9, "carter", 7, "spanish_cedar", 1600);
+INSERT INTO tables VALUES (10, "peyton", 8, "sycamore", 1650);
+INSERT INTO tables VALUES (11, "sidney", 8, "hickory", 1650);
+INSERT INTO tables VALUES (12, "parker", 9, "willow", 1700);
+INSERT INTO tables VALUES (13, "kendall", 9, "cypress", 1750);
+INSERT INTO tables VALUES (14, "harley", 10, "chestnut", 1800);
+INSERT INTO tables VALUES (15, "landon", 12, "mesquite", 1900);
+SELECT * FROM tables;
+SELECT * FROM tables;
+SELECT * FROM tables;
+SELECT * FROM tables;
+SELECT * FROM tables;
+SELECT * FROM tables;
+SELECT * FROM tables;
+SELECT * FROM tables;
+SELECT * FROM tables;
+SELECT * FROM tables;
+SELECT * FROM tables;
+
+SELECT name FROM tables ORDER BY name;
+SELECT seating FROM tables ORDER BY seating DESC;
+SELECT * FROM tables WHERE seating > 7 ORDER BY seating DESC;
+
+
+
+
+
